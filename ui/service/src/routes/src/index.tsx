@@ -1,4 +1,4 @@
-import type { RouteExtended } from 'evidently-ui-lib/router-utils/types'
+import type { RouteExtended } from 'testify-ui-lib/router-utils/types'
 
 // It's important to import `SnapshotIdRoute` before `DashboardRoute`. Affects bundle chunks
 import { SnapshotIdRoute } from './home/projects-crumb-prefix/projects-layout/project/reports-layout/snapshot-view/import'
